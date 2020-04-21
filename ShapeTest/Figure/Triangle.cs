@@ -3,10 +3,7 @@ namespace ShapeTest
 {
     public class Triangle :Figure
     {
-      
-        public double X{get;set;}
-        public double Y{get;set;}
-        public string Name{get;set;}
+     
 
         public Triangle(double theX, double theY, string name) : base(theX, theY, name)
         {
