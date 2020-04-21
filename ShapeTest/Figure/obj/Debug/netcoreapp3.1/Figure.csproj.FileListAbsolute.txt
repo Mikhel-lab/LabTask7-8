@@ -1,0 +1,4 @@
+C:\codebitsacademy\classworks\ShapeTest\Figure\obj\Debug\netcoreapp3.1\Figure.csprojAssemblyReference.cache
+C:\codebitsacademy\classworks\ShapeTest\Figure\obj\Debug\netcoreapp3.1\Figure.csproj.CoreCompileInputs.cache
+C:\codebitsacademy\classworks\ShapeTest\Figure\obj\Debug\netcoreapp3.1\Figure.AssemblyInfoInputs.cache
+C:\codebitsacademy\classworks\ShapeTest\Figure\obj\Debug\netcoreapp3.1\Figure.AssemblyInfo.cs
