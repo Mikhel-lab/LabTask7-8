@@ -3,9 +3,7 @@ namespace ShapeTest
 {
     public class Square : Figure
     {
-       public double X{get;set;}
-        public double Y{get;set;}
-        public string Name{get;set;}
+     
 
         public Square(double theX, double theY, string name) : base(theX, theY, name)
         {
