@@ -4,28 +4,28 @@ namespace ShapeTest
     public class Cube : Figure
     {
       
-        public double x{get;set;}
-        public double y{get;set;}
-        public string name{get;set;}
+        public double X{get;set;}
+        public double Y{get;set;}
+        public string Name{get;set;}
 
-        public Cube(double theX, double theY, string name) : base(x, y, name)
+        public Cube(double theX, double theY, string name) : base(theX, theY, name)
         {
-            name = name;
-            x = theX;
-            y = theY;
+            Name = name;
+            X = theX;
+            Y = theY;
         }
 
         public override double Area()
         {
-            return ((theX * theY) * 6);
+            return ((X * Y) * 6);
         }
 
         
         public override void GetInfo()
         {
-            
+            Area();
             base.GetInfo();
-            Console.WriteLine($"It has a Length of {theX} and Lenght of {theY}");
+            Console.WriteLine($"It has a Length of {X} and Lenght of {Y}");
         }
     }
 }
