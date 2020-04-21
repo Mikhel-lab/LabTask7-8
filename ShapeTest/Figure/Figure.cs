@@ -1,4 +1,5 @@
 
+
 using System;
 namespace ShapeTest
 {
@@ -20,7 +21,10 @@ namespace ShapeTest
             Name = name;
         }
 
-        public virtual double Area();
+        public virtual double Area()
+        {
+            
+        }
        
     }
 }
